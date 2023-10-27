@@ -1,8 +1,10 @@
 import "./App.css";
 import About from "./components/About/About";
 import Advertisement from "./components/Advertisement/Advertisement";
+import Contact from "./components/Contact/Contact";
 import Features from "./components/Features/Features";
 import Home from "./components/Home/Home";
+import News from "./components/News/News";
 import Price from "./components/Price/Price";
 import Reasons from "./components/Reasons/Reasons";
 import Tabbar from "./components/Tabbar/Tabbar";
@@ -21,6 +23,8 @@ function App() {
       <Price />
       <Testimonials />
       <Advertisement />
+      <News />
+      <Contact />
     </div>
   );
 }
