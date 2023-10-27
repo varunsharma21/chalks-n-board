@@ -1,0 +1,50 @@
+.teacher-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 287px;
+  height: 430px;
+  margin-right: 20px;
+}
+
+.teacher-img {
+  width: 287px;
+  height: 291px;
+}
+
+.name {
+  margin-top: 10px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.position {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.contact-icons img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+  .teacher-card {
+    height: 450px;
+    margin-top: 20px;
+  }
+
+  .contact-icons {
+    margin-bottom: 10px;
+  }
+}

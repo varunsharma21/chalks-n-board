@@ -1,0 +1,41 @@
+.container {
+  height: 550px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  margin-right: 90px;
+}
+
+.container img {
+  width: 60px;
+  height: 60px;
+  margin: 55px;
+}
+
+.container p {
+  margin-top: 18px;
+}
+
+.container button {
+  margin-top: 40px;
+  height: 45px;
+  width: 160px;
+  background-color: green;
+  color: white;
+  font-weight: 700;
+  border-radius: 25px;
+  border: none;
+}
+
+.price {
+  font-size: 45px;
+}
+
+@media only screen and (max-width: 450px) {
+  .container {
+    margin: 0 0 20px 0;
+  }
+}
